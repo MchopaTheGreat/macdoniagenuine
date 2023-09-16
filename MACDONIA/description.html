@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MACDONIA SAMSUNG GENUINE</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-size: 1.7rem;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background: #2c3e50;
+            color: #ececec;
+            padding: 4rem;
+            animation: dc 20s linear infinite;
+        }
+        @keyframes dc {
+            50% {
+                background-color: green;
+            }
+            75% {
+                background-color: black;
+            }
+            100% {
+                background:url("image/adv/f.jpg")
+            }
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 1rem;
+            font-size: 4rem;
+            animation: h1 5s ease-in-out infinite;
+        }
+        @keyframes h1 {
+            50% {
+                color: rgb(195, 26, 82);
+            }
+            100% {
+                color: blue;
+            }
+        }
+        .all-products {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .Product {
+            overflow:hidden;
+            background:#ffffff;
+            color:#21201e;
+            text-align:center;
+            width: 240px;
+            height:340px;
+            padding: 3rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border-radius: 1.2rem;
+            margin: 2rem;
+        }
+        .Product:hover img {
+            scale: 1.1;
+        }
+        .Product:hover {
+            box-shadow: 5px 15px 25px #eeeeee;
+            cursor: pointer;
+        }
+        .Product img {
+            height: 200px;
+            margin: 1rem;
+            transition: all 0.3s;
+            cursor: pointer;
+        }
+        .Product a:link, .Product:visited {
+            color:white;
+            display: inline-block;
+            text-decoration: none;
+            background-color: black;
+            padding: 1px;
+            border-radius: 4px;
+            margin-top: -2rem;
+            transition: all 0.2s;
+            font-size: 15px;
+        }
+        .Product a:hover {
+           transform: scale(1.1); 
+           cursor: pointer;
+        }
+        .Product-price {
+            font-size: 12px;
+            margin-top: -0.1rem;
+        }
+        .Product-title {
+            font-size: 13px;
+            margin-top: -15px;
+        }
+        .Product-btn {
+            color: white;
+            animation: btn 5s linear infinite;
+        }
+        @keyframes btn {
+            25% {
+                background-color: blue;
+            }
+            50% {
+                background-color: red;
+            }
+            75% {
+                background-color: chocolate;
+            }
+            100% {
+                background-color:crimson
+            }
+        }
+        .dec1 {
+            font-size: 13px;
+            margin-top:-2em;
+        }
+        .dec{
+            font-size: 13px;
+        }
+        article p::first-letter{
+            font-size: xx-large;
+            color: blue;
+        }
+        article h2 {
+            font-size: 23px;
+            text-align: center;
+        }
+        #bk {
+            background-color: green;
+            color: white;
+            border: 2px dashed red;
+            border-radius: 10px;
+            text-decoration: none;
+            padding: 5px 10px;
+            position: relative;
+            left: 16em;
+            top: 1em;
+            border-radius: 35px 15px 5px;
+            animation: myBd 5s linear infinite;
+        }
+        @keyframes myBd {
+            50% {
+                border: 3px solid blue;
+            }
+            75% {
+                border: 3px dotted yellow;
+            }
+            100% {
+                border: 3px solid deeppink;
+            }
+        }
+        #nt {
+            background-color: green;
+            color: white;
+            border: 2px dashed red;
+            border-radius: 10px;
+            text-decoration: none;
+            padding: 4px 8px;
+            position: relative;
+            left: 18em;
+            top: 1em;
+            border-radius: 5px 15px 35px;
+            animation: myBd 5s linear infinite;
+        }
+
+
+        /* Responsive web design  */
+
+
+ /* Extra small devices (phones, 600px and down) */
+        @media only screen and (max-width: 600px){
+            .Product-btn {
+                position: relative;
+                top: -4em;
+                padding: 4px 8px;
+            }
+            #bk {
+            position: relative;
+            top: 2em;
+            left: 1em;
+        }
+        #nt {
+            position: relative;
+            top: 2em;
+            left: 1em;
+        }
+            *{
+                width: auto;
+            }
+            h1 {
+            text-align: center;
+            margin-bottom: 1rem;
+            font-size: 2rem;
+            }
+            .Product a:link, .Product:visited {
+            color:white;
+            display: inline-block;
+            text-decoration: none;
+            background-color: black;
+            padding: 1px;
+            border-radius: 4px;
+            margin-top: 4rem;
+            transition: all 0.2s;
+            font-size: 15px;
+        }
+        }
+        /* Small devices (portrait tablets and large phones, 600px and up) */
+        @media only screen and (min-width: 600px) {
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+        }
+        @media only screen and (min-width: 768px) {
+            #bk {
+            position: relative;
+            top: 2em;
+            left: 8em;
+        }
+        #nt {
+            position: relative;
+            top: 2em;
+            left: 9em;
+        }
+        }
+        /* Large devices (laptops/desktops, 992px and up) */
+        @media only screen and (min-width: 992px) {
+    #bk {
+            position: relative;
+            top: 2em;
+            left: 12em; 
+        }
+        #nt {
+            position: relative;
+            top: 2em;
+            left: 13em;
+        }
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+            #bk {
+            position: relative;
+            top: 2em;
+            left: 16em; 
+        }
+        #nt {
+            position: relative;
+            top: 2em;
+            left: 17em;
+        }
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+    </style>
+</head>
+<body>
+    <div class=" row">
+        <div class="col-12">
+    <article>
+        <h2> <ins><span style="color: blue;;" >WELCOME MACDONIA SAMSUNG GENUINE</span></ins></h2>
+        <p class="dec">Get better quality phones, tablets accessories from <span style="color: blue;">MACDONIA SAMSUNG GENUINE
+        </span>with full warranty. through the <span style="color: blue;">MACDONIA SAMSUNG GENUINE
+        </span> you will get all your demands of phones ,tablets and other accessories because we provide better services to you with more affordable prices for you. our purpose is to give what you always desire in the better way that will make you enjoy.</p><br>
+        <p class="dec1">Our products have all qualifications that needed are we take from the famous countries which have more experience on manufacturing of these accessories and more acceptable like China and Dubai, hence don't worry anything our products</p>
+    </article><br>
+
+
+    <hr>
+
+
+    <section class="Products">
+        <h1>Our Products</h1>
+        <div class="all-products">
+            <div class="Product">
+                <img src="image/adv/o.jpg" alt="">
+                <div class="Product-info">
+                    <h4 class="Product-title">Samsung Galaxy s22 ultra</h4>
+                    <p class="Product-price">Used as new price: 1,500,000 Tzs.</p>
+                    <p class="Product-price">Brand new full box price: 1,850,000 Tzs.</p>
+                    <a class="Product-btn" href="s22.html">See more</a>
+                </div>
+            </div>
+            <div class="Product">
+                <img src="image/adv/d.jpg" alt="">
+                <div class="Product-info">
+                    <h4 class="Product-title">Samsung Galaxy s21 ultra </h4>
+                    <p class="Product-price">Used as new price: 950,000 Tzs.</p>
+                    <p class="Product-price">Brand new full box price: 1,350,000 Tzs.</p>
+                    <a class="Product-btn"  href="s21.html">See more</a>
+                </div>
+            </div>
+            <div class="Product">
+                <img src="image/adv/q.jpg" alt="">
+                <div class="Product-info">
+                    <h4 class="Product-title">Samsung Galaxy s8 plain</h4>
+                    <p class="Product-price">Used as new price: 290,000 Tzs.</p>
+                    <p class="Product-price">Brand new full box price: 380,000 Tzs.</p>
+                    <a class="Product-btn"  href="s8.html">See more</a>
+                </div>
+            </div>
+            <div class="Product">
+                <img src="image/adv/r.jpg" alt="">
+                <div class="Product-info">
+                    <h4 class="Product-title">Samsung Galaxy s8 plus </h4>
+                    <p class="Product-price">Used as new price: 330,000 Tzs.</p>
+                    <p class="Product-price">Brand new full box price: 450,000 Tzs.</p>
+                    <a class="Product-btn"  href="s8plus.html">See more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="Products">
+        <h1></h1>
+        <div class="all-products">
+            <div class="Product">
+                <img src="image/adv/l.jpg" alt="">
+                <div class="Product-info">
+                    <h4 class="Product-title">Samsung Galaxy s9 plain</h4>
+                    <p class="Product-price">Used as new price: 300,000 Tzs.</p>
+                    <p class="Product-price">Brand new full box price: 400,000 Tzs.</p>
+                    <a class="Product-btn" href="s9.html">See more</a>
+                </div>
+            </div>
+            <div class="Product">
+                <img src="image/adv/p.jpg" alt="">
+                <div class="Product-info">
+                    <h4 class="Product-title">Samsung Galaxy s9 plus </h4>
+                    <p class="Product-price">Used as new price: 350,000 Tzs.</p>
+                    <p class="Product-price">Brand new full box price: 480,000 Tzs.</p>
+                    <a class="Product-btn"  href="s9plus.html">See more</a>
+                </div>
+            </div>
+            <div class="Product">
+                <img src="image/adv/t.jpg" alt="">
+                <div class="Product-info">
+                    <h4 class="Product-title">Samsung Galaxy s10 plus</h4>
+                    <p class="Product-price">Used as new price: 500,000 Tzs.</p>
+                    <p class="Product-price">Brand new full box price: 700,000 Tzs.</p>
+                    <a class="Product-btn"  href="s10plus.html">See more</a>
+                </div>
+            </div>
+            <div class="Product">
+                <img src="image/adv/x.jpg" alt="">
+                <div class="Product-info">
+                    <h4 class="Product-title">Samsung Galaxy note8 </h4>
+                    <p class="Product-price">Used as new price: 380,000 Tzs.</p>
+                    <p class="Product-price">Brand new full box price: 550,000 Tzs.</p>
+                    <a class="Product-btn"  href="note8.html">See more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="Products">
+        <h1></h1>
+        <div class="all-products">
+            <div class="Product">
+                <img src="image/adv/ph167.jpg" alt="">
+                <div class="Product-info">
+                    <h4 class="Product-title">Samsung Galaxy note9</h4>
+                    <p class="Product-price">Used as new price: 450,000 Tzs.</p>
+                    <p class="Product-price">Brand new full box price: 600,000 Tzs.</p>
+                    <a class="Product-btn" href="note9.html">See more</a>
+                </div>
+            </div>
+            <div class="Product">
+                <img src="image/adv/u.jpg" alt="">
+                <div class="Product-info">
+                    <h4 class="Product-title">Samsung Galaxy note10 plus </h4>
+                    <p class="Product-price">Used as new price: 650,000 Tzs.</p>
+                    <p class="Product-price">Brand new full box price: 900,000 Tzs.</p>
+                    <a class="Product-btn"  href="note10plus.html">See more</a>
+                </div>
+            </div>
+            <div class="Product">
+                <img src="image/adv/ph179.jpg" alt="">
+                <div class="Product-info">
+                    <h4 class="Product-title">Samsung Galaxy a32 5G</h4>
+                    <p class="Product-price">Used as new price: 420,000 Tzs.</p>
+                    <p class="Product-price">Brand new full box price: 600,000 Tzs.</p>
+                    <a class="Product-btn"  href="a32.html">See more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    </div>
+    </div>
+    <a href="home.html" id="bk">&larr;Back</a>
+    <a href="s22.html" id="nt">Next&rarr;</a>
+</body>
+</html>
